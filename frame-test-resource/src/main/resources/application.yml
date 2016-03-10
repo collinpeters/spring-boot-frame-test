@@ -8,8 +8,6 @@ security:
   oauth2:
     resource:
       userInfoUri: http://localhost:9999/me
-  headers:
-    frame: false
 logging:
   level:
     org.springframework.security: INFO
